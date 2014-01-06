@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Exercise 1</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Keywords" content="Exercise 1" />
+        <meta name="Description" content="Exercise 1" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div id="header_kiri">
+                    <img src="images/logo.png"></img>
+                </div>
+                <div id="header_kanan">
+                    <form id="isiheaderkanan" name="form1" action="index.html" method="post">
+                        <label>Language :</label>
+                        <select name="language" id="language">
+                            <option value="English">English</option>
+                            <option value="Indonesia">Indonesia</option>
+                        </select>
+                        <label>Currencies :</label>
+                        <select name="currencies" id="currencies">
+                            <option value="US Dollar">US Dollar</option>
+                            <option value="Rupiah">Rupiah</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"><span class="nyala">Home</span></a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="floating_rigth">
+                        <div id="search">
+                            <form action='#' method="post">
+                                <input type="text" name="s" id="s"/>
+                                <input type="submit" name="submit_search" id="submit_search" value="Search" />
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <div class="sidebarkotak" id="sidebar">
+                    <h4>Login</h4>
+                    <form id="loginContainer" name='login' action="#" method="post">
+                        <table>
+                            <tr>
+                                <td><label for="username">Username</label></td>
+                                <td><input type="text" name="username" id="username" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password">Password</label></td>
+                                <td><input type="password" name="password" id="password"  /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" name="login" value="login" /></td>
+                                <td><input type="submit" name="signup" value="Sign Up" /></td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <div id="category">
+                        <h4>Category</h4>
+                        <ul>
+                            <li>
+                                <span>Fashion</span>
+                                <ul>
+                                    <li><a href="#">Baby Clothes</a></li>
+                                    <li><a href="#">Night Dress</a></li>
+                                    <li><a href="#">T-Shirt</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Gadget</span>
+                                <ul>
+                                    <li><a href="#">Blackberry</a></li>
+                                    <li><a href="#">Handphone</a></li>
+                                    <li><a href="#">Laptop</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Book</span>
+                                <ul>
+                                    <li><a href="#">Novel</a></li>
+                                    <li><a href="#">Comic</a></li>
+                                    <li><a href="#">Ensyclopedia</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="detail_content">
+                    <div id="title">
+                       About <span class="nyala">Shop</span></h4> 
+                    </div>
+                    <p id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+
+                    <div class="row">
+                        <div class="floating_left" id="title">
+                            Featured <span class="nyala">Shop</span>
+                        </div>
+                        <div class="floating_rigth">
+                            <a href="#" class="btn">View All Products</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div id="featured">
+                        <ul>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/images.png"></img>
+                                <div class="product_detail">
+                                    <span>Name :</span>
+                                    <span>Price :</span>
+                                    <a class="floating_rigth btn" href="#">Details</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear"></div>
+                    <div id='latest_article'>
+                        <h4>Latest Article From Buddies</h4>
+                        <ul>
+                            <li>"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna." <a href="#">Read More</a></li>
+                            <li>"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna." <a href="#">Read More</a></li>
+                            <li>"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna." <a href="#">Read More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="footer">
+                <div class="menu fmenu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">What's New</a></li>
+                        <li><a href="#">Specials</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div class="nyala">
+                    Copyright &copy; PT. Walden Global Service 2011
+                </br></br>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
