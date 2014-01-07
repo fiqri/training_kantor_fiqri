@@ -1,0 +1,73 @@
+@font-face{
+    font-family: fontTitle;
+    src: url(../font/LobsterTwo-Regular.otf) format("opentype"); 
+}
+body{
+    margin: 0px auto 0 auto;
+}
+section{
+    vertical-align: baseline;
+}
+h2{
+    font-family: 'fontTitle';
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.putih{
+    color: white;
+}
+#one{
+    background: url(../images/silho.jpg) no-repeat fixed;
+}
+#one .wgslogo{
+    background: url(../images/wgslogo.jpg) 50% 100px no-repeat fixed;
+    min-height: 800px;
+    width: 100%;
+}
+#one article{
+    width: 100%;
+    text-align: center;
+    top: 400px;
+    position: absolute;
+}
+#two{
+    background: url(../images/city.jpg) no-repeat fixed;
+    min-height: 700px;
+    padding: 50px 0;
+}
+#two article{
+    margin-left: 100px;
+}
+.box{
+    background: url(../images/grain.png) repeat fixed;
+    color: white;
+    position: relative;
+    width: 450px;
+    padding: 5px 0 10px 20px;
+    float: left;
+}
+#two .right{
+    float: left;
+    margin: 100px 0 0 300px;
+}
+#three{
+    background: url(../images/green_grass.jpg) no-repeat fixed;
+    min-height: 800px;
+    padding: 10px;
+}
+#three article{
+    margin-left: 100px;
+}
+#three .right{
+    float: left;
+    margin: 0px 0 0 150px;
+}
+#four{
+    background: url(../images/grain.png) repeat fixed;
+    min-height: 800px;
+}
+#four .thanks{
+    background: url(../images/thanks.png) 50% 100px no-repeat fixed;
+    min-height: 800px;
+    width: 100%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise_2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="Keywords" content="Exercise 2">
+        <meta name="Description" content="Exercise 2">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="main">
+            <section id="one">
+                <div class="wgslogo"></div>
+                <article>
+                    <img src="images/title.png" alt="HTML5 Tutorial" width="711" height="242"/>
+                </article>
+            </section>
+            <section id="two">
+                <article class="box">
+                    <h2>Audio</h2>
+                    <p>
+                        Tag audio mendefinisikan suatu tag suara, seperti music atau streaming audio lainnya.
+                        Format suara yang dapat berjalan dengan HTML5 adalah .ogg, .mp3 dan .wav.
+                        <br><br>
+                        Format audio :<br>
+                        - ogg => ff3.5, opera 10.5, chrome 3<br>
+                        - mp3 => safari, chrome<br>
+                        - wav => safari, firefox, opera<br>
+                </article>
+                <article class="right">
+                    <audio controls="controls">
+                        <source src="media/ACDC.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </article>
+            </section>
+            <section id="three">
+                <article>
+                    <h2 class="putih">HTML5 Video</h2>
+                    <div class="box">
+                        <p>
+                            Tag video merupakan sebuah element yang mendefiniskan sebuah video, 
+                            seperti movie clip atau video streaming.<br>
+                            Jika ada sebuah teks diantara elemen video 
+                            maka teks tersebut akan ditampilkan dalam browser yang tidak mendukung tag video.
+                        </p>
+                    </div>
+                </article>
+                <article class="right">
+                    <video width="500" height="340" controls="controls">
+                        <source src="media/guitar_cover.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </article>
+            </section>
+            <section id="four">
+                <div class="thanks"></div>
+            </section>
+        </div>
+    </body>
+</html>
